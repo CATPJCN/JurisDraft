@@ -10,7 +10,7 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 Traditional generative AI models frequently fabricate statutory articles, omit mandatory procedural formalities, or cross-contaminate draft terms with historical training data. In legal drafting, a single hallucinated article or omitted statutory clause can render an agreement legally void (*ตกเป็นโมฆะ*).
 
@@ -18,19 +18,15 @@ Traditional generative AI models frequently fabricate statutory articles, omit m
 
 ---
 
-## 🌟 Key Highlights & Engineering Features
+## Key Highlights & Engineering Features
 
-- 🛡️ **Zero-Hallucination Legal Guardrails**: Deterministic requirement checklists enforce Thai Civil Code constraints before drafting begins (e.g., verifying written evidence rules under CCC Art. 653 and statutory interest rate caps of 15% under CCC Art. 654).
-- 🤖 **4-Agent LangGraph StateGraph**: Specialized cyclic pipeline (Agent 1: Collection & Normalization ➔ Agent 2: Hybrid RAG ➔ Agent 3: Structural Drafting ➔ Agent 4: Validation & Citation Cross-Verification).
-- 🔍 **Hybrid Statutory RAG Engine**: Indexes official Thai Council of State (*สำนักงานคณะกรรมการกฤษฎีกา*) statutes and vetted blank templates. Employs dense vector embeddings combined with Thai morphological BM25 search.
-
-> [!TIP]
-> **Detailed Engineering Specification**  
-> For the complete LangGraph `JurisDraftState` schema, 4-step terminology normalization flowchart, 3-tier checklist validation mechanics, and dense/sparse RAG fusion details, refer to the dedicated **[ARCHITECTURE.md](ARCHITECTURE.md)** document.
+- **Zero-Hallucination Legal Guardrails**: Deterministic requirement checklists enforce Thai Civil Code constraints before drafting begins (e.g., verifying written evidence rules under CCC Art. 653 and statutory interest rate caps of 15% under CCC Art. 654).
+- **4-Agent LangGraph StateGraph**: Specialized cyclic pipeline (Agent 1: Collection & Normalization ➔ Agent 2: Hybrid RAG ➔ Agent 3: Structural Drafting ➔ Agent 4: Validation & Citation Cross-Verification).
+- **Hybrid Statutory RAG Engine**: Indexes official Thai Council of State (*สำนักงานคณะกรรมการกฤษฎีกา*) statutes and vetted blank templates. Employs dense vector embeddings combined with Thai morphological BM25 search.
 
 ---
 
-## 📋 Supported Official Contract Types
+## Supported Official Contract Types
 
 JurisDraft covers 5 primary contractual categories under Book 3 of the Thai Civil and Commercial Code:
 
@@ -44,7 +40,7 @@ JurisDraft covers 5 primary contractual categories under Book 3 of the Thai Civi
 
 ---
 
-## 💻 Tech Stack
+## Tech Stack
 
 | Layer | Technologies | Purpose |
 | :--- | :--- | :--- |
