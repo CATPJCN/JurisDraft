@@ -47,5 +47,5 @@ JurisDraft covers 5 primary contractual categories under Book 3 of the Thai Civi
 | **Frontend** | defined later | defined later |
 | **Backend API** | FastAPI, Pydantic v2, Python-docx | High-throughput REST API, validation, `.docx` rendering |
 | **Agent Orchestration** | LangGraph, LangChain Core | StateGraph workflow, cyclic clarification loops |
-| **Vector DB & Retrieval** | ChromaDB, Sentence-Transformers, PyThaiNLP, Rank-BM25 | Dense embeddings + Thai tokenized sparse BM25 |
+| **Vector DB & Retrieval** | ChromaDB, Postgres | Dense embeddings + Thai tokenized sparse BM25 |
 | **Local Inference** | LM Studio | Offline execution of open-weight models (Development stage) |
