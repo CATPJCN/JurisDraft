@@ -21,7 +21,7 @@ Traditional generative AI models frequently fabricate statutory articles, omit m
 ## Key Highlights & Engineering Features
 
 - **Zero-Hallucination Legal Guardrails**: Deterministic requirement checklists enforce Thai Civil Code constraints before drafting begins (e.g., verifying written evidence rules under CCC Art. 653 and statutory interest rate caps of 15% under CCC Art. 654).
-- **4-Agent LangGraph StateGraph**: Specialized cyclic pipeline (Agent 1: Collection & Normalization ➔ Agent 2: Hybrid RAG ➔ Agent 3: Structural Drafting ➔ Agent 4: Validation & Citation Cross-Verification).
+- **3-Agent LangGraph StateGraph**: Specialized cyclic pipeline (Agent 1: Collection & Normalization ➔ Agent 2: Structural Drafting ➔ Agent 3: Validation & Citation Cross-Verification).
 - **Hybrid Statutory RAG Engine**: Indexes official Thai Council of State (*สำนักงานคณะกรรมการกฤษฎีกา*) statutes and vetted blank templates. Employs dense vector embeddings combined with Thai morphological BM25 search.
 
 ---
